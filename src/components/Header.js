@@ -10,7 +10,10 @@ export default class Header extends Component {
     return (
       <header>
         <div>
-          <div className="logo">Start bootstrap</div>
+          <div className="logo">Start Bootstrap</div>
+          <button onClick={this.toggleSideBar}>
+            {this.state.toggle ? "Close" : "Men"}
+          </button>
           <nav>
             <ul>
               <li>

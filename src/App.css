@@ -1,20 +1,23 @@
 header {
-  height: 90px;
+  height: 900px;
   background-color: #000000;
   background-image: url("./media/landing.png");
   background-position: 100% 100%;
   background-repeat: no-repeat;
   color: white;
-  /* position: fixed; */
-  /* top: 0;
+  position: fixed;
+  top: 0;
   left: 0;
-  right: 0; */
+  right: 0;
 }
 .logo {
   color: goldenrod;
+  font-family: "Kaushan Script", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header > div {
-  height: 100%;
+  height: 100px;
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
@@ -35,6 +38,10 @@ header nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  list-style-type: none;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header > div button {
@@ -46,8 +53,8 @@ header > div button {
     position: fixed;
     top: 0;
     right: 0;
+    background-color: goldenrod;
     bottom: 0;
-    background-color: greenyellow;
     min-height: 100vh;
     transform: translate(300px, 0);
     transition: 0.3s;
